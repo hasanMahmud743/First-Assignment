@@ -1,0 +1,291 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+#heading-banner{
+    height: 90vh;
+    background:rgba(0, 0, 0, 0.7)url(images/donation3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.heading-text{
+    /* width:600px; */
+    color:white;
+    /* margin: auto;
+    text-align: center;
+    padding-top: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    text-align: center;
+
+}
+
+.heading-text h1{
+    margin:15px;
+
+    font-size: 45px
+}
+
+.heading-text p{
+    margin:10px;
+    font-size:20px
+
+}
+
+.btn{
+    padding:8px 25px;
+    font-size:17px;
+    border:none;
+    width: 200px;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+   
+}
+.btn1{
+    color: black;
+    background-color: rgb(252, 252, 252);
+   
+
+}
+
+
+/*  */
+
+/*  */
+
+
+#amount-section{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: rgb(254, 243, 230);
+    
+
+} 
+
+
+.amount-heading {
+    text-align:center;
+    padding:20px;
+}
+
+.amount-heading h1{
+    text-align:center;
+     padding:20px; 
+}
+
+.amount-heading p{
+    text-align:center;
+    margin:20px;
+
+}
+
+
+
+
+
+.amount-div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+
+   
+}
+
+.amount-div div h1{
+    width:160px;
+    text-align: center;
+    padding:40px;
+    margin:8px;
+    background-color: rgb(246, 230, 248);
+    border-radius: 10px;
+}
+
+/*  */
+
+#input{
+    background-color: rgb(254, 243, 230);
+    padding-bottom:50px
+}
+
+
+.inp-nd-btn{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.inp-nd-btn input{
+    width: 500px;
+    background-color: rgb(254, 243, 230) ;
+    border: none;
+    margin: 50px  auto;
+    border-bottom: 2px solid black;
+}
+
+
+
+.btn2{
+    margin: auto;
+
+}
+
+/*  */
+
+
+
+
+
+/*  */
+
+#card-section{
+    background-color: rgb(232, 244, 233);
+}
+
+.card-parrents{
+    display:flex;
+    padding: 40px;
+
+}
+
+.card-parrents .card{
+    margin:10px;
+    text-align:center ;
+    padding:20px;
+   
+
+}
+
+.icon{
+    padding:30px
+}
+
+.one{
+    background-color: rgb(247, 224, 224);
+    border-radius:5px;
+}
+
+.two{
+    background-color: rgb(247, 244, 208);
+    border-radius:5px;
+}
+
+.three{
+    background-color: rgb(222, 242, 246);
+    border-radius:5px;
+}
+
+/*  */
+
+#activities-sec{
+
+    background-color: rgb(233, 223, 249);
+    padding:5%
+}
+
+.our-activities{
+    display: flex;
+
+}
+
+
+.active-half{
+    width: 50%;
+   
+   
+}
+
+.first{
+    padding:15px;
+    margin-top:150px
+}
+
+.group{
+    display: flex;
+}
+
+.group-pic  {
+    width: 100%;
+    padding:10px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+   
+}
+.group-div{
+     padding-right: 8px;
+}
+
+
+.group-pic img{
+    width: 100%;
+    border-radius:5px;
+}
+
+
+/*  */
+#subscive-sec{
+    background-color: rgb(211, 226, 240);
+    padding:50px
+}
+
+
+.sub{
+    background-color:rgb(206, 203, 200) ;
+    padding:100px;
+    width:700px;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+
+
+
+
+.sub-2 input{
+    padding:20px;
+    border: none;
+    border-radius:5px 0 0 5px; 
+    margin-left:20px;
+    font-size: 17px;
+}
+
+.sub-2 button{
+    padding:20px;
+    position: absolute;
+    left:-6; 
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 17px;
+}
+
+
+/*  */
+
+
+/*  */
+
+#footer-sec{
+    text-align: center;
+    background-color: rgb(96, 88, 88);
+    color:white;
+    padding:50px
+}
+
+
+
+
+
+
