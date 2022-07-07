@@ -208,11 +208,15 @@
 
 /* planing sec ends here */
 
+
+
+
 /* news sec start here */
 
 #news-section{
     background-color: rgb(208, 218, 247);
 }
+
 .news-sec{
     display: flex;
     padding:3%;
@@ -224,8 +228,14 @@
 }
 
 .news-half img{
-    width:100%
+    width:100%;
+    border-radius: 10px;
 }
+
+/* news sec ends here */
+
+
+
 
 /* activities sec start here */
 
@@ -238,14 +248,11 @@
 
 .our-activities{
     display: flex;
-
 }
 
 
 .active-half{
     width: 50%;
-   
-   
 }
 
 .first{
@@ -278,6 +285,10 @@
 
 /* activies sec ends here */
 
+
+
+
+
 /* subscrive sec start here */
 
 
@@ -285,7 +296,6 @@
     background-color: rgb(211, 226, 240);
     padding:50px
 }
-
 
 .sub{
     background-color:rgb(206, 203, 200) ;
@@ -295,9 +305,6 @@
     border-radius: 5px;
     
 }
-
-
-
 
 .sub-2 input{
     padding:20px;
@@ -316,8 +323,8 @@
     font-size: 17px;
 }
 
-
 /* subscrive sec ends here */
+
 
 
 
