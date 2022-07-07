@@ -1,3 +1,4 @@
+/* universe selection sec start here */
 *{
     margin:0;
     padding:0;
@@ -5,6 +6,11 @@
     font-family: 'Poppins', sans-serif;
    
 }
+/* universe selection sec ends here */
+
+
+
+/* heading sec start here */
 
 #heading-banner{
     height: 90vh;
@@ -15,11 +21,7 @@
 }
 
 .heading-text{
-    /* width:600px; */
     color:white;
-    /* margin: auto;
-    text-align: center;
-    padding-top: ; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +43,7 @@
 
 }
 
+
 .btn{
     padding:8px 25px;
     font-size:17px;
@@ -58,10 +61,11 @@
 
 }
 
+/* heading sec ends here */
 
-/*  */
 
-/*  */
+
+/* donate sec ends here */
 
 
 #amount-section{
@@ -90,20 +94,14 @@
 }
 
 
-
-
-
 .amount-div{
     display: flex;
     justify-content: center;
     text-align: center;
     
-
-
-   
 }
 
-.amount-div div h1{
+.amount-div  h1{
     width:160px;
     text-align: center;
     padding:40px;
@@ -112,7 +110,22 @@
     border-radius: 10px;
 }
 
-/*  */
+.select{
+    width:160px;
+    text-align: center;
+    border:3px solid red;
+    padding:40px;
+    margin:8px;
+    background-color: rgb(184, 120, 120);
+    border-radius: 10px;
+
+}
+
+/*  Donate sec ends here */
+
+
+
+/* input sec start here */
 
 #input{
     background-color: rgb(254, 243, 230);
@@ -142,16 +155,17 @@
 
 }
 
-/*  */
+/* input sec ends here */
 
 
 
 
+/* planning sec start here */
 
-/*  */
 
 #card-section{
     background-color: rgb(232, 244, 233);
+    padding:3%
 }
 
 .card-parrents{
@@ -187,7 +201,29 @@
     border-radius:5px;
 }
 
-/*  */
+/* planing sec ends here */
+
+/* news sec start here */
+
+#news-section{
+    background-color: rgb(208, 218, 247);
+}
+.news-sec{
+    display: flex;
+    padding:3%;
+}
+
+.news-half{
+    width:50%;
+    padding:10px;
+}
+
+.news-half img{
+    width:100%
+}
+
+/* activities sec start here */
+
 
 #activities-sec{
 
@@ -235,7 +271,11 @@
 }
 
 
-/*  */
+/* activies sec ends here */
+
+/* subscrive sec start here */
+
+
 #subscive-sec{
     background-color: rgb(211, 226, 240);
     padding:50px
@@ -272,10 +312,11 @@
 }
 
 
-/*  */
+/* subscrive sec ends here */
 
 
-/*  */
+
+/* footer sec start here */
 
 #footer-sec{
     text-align: center;
@@ -283,6 +324,8 @@
     color:white;
     padding:50px
 }
+
+/* footer sec ends here */
 
 
 
